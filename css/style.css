@@ -1,0 +1,64 @@
+.bg-principal{background-color:blue;}
+
+a:hover{font-size: 20px; background-color: mediumblue;}
+
+.card input:hover{box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3); cursor:pointer; width: 30%;}
+
+
+
+
+footer .iconosFoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgInicio{height: 450px;width: 400px;}
+
+.iconosFoo img{
+    height: 90px;
+    width: 90px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex!important;
+    flex-direction: column;
+}
+
+.datosContacto{color: white;font-size: 20px;text-align: center;}
+
+.m20{margin: 20px;}
+.p20{padding: 20px;}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{ 
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+html, body 
+{ 
+ height: 100%;
+ overflow-x: hidden
+}
+
+
+.formulario form{
+    display:flex;
+    flex-direction: column; 
+    row-gap: 10px;
+}
+
+h3 {color: white;display: flex; justify-content: center;}
+
+
+.frame{margin-top: 80px;margin-left: 50px;}
+
+.logoFoo img{margin-left: 40px;}
