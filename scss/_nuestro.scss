@@ -1,0 +1,176 @@
+/* GENERAL */
+
+.logoHeader img{
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+ ul .navbar{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+a:hover{font-size: 30px; background-color: mediumblue;}
+
+li{
+    padding: 20px;
+    margin: 20px;
+}
+
+.p20{padding:20px;}
+
+.mb20{margin-bottom: 20px;}
+
+.m20{margin: 20px;}
+
+.bgPrincipal{background-color: blue;}
+
+.bgLgrey{background-color: lightgray;}
+
+.flexCard{display:flex;flex-direction: column;}
+
+.card{border-radius: 20px;align-items: center;}
+
+.card input{width: 80%; height: 40px; border-radius:20px;transition:1s all;}
+
+.card input:hover{box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3); cursor:pointer; width: 30%;}
+
+h1{text-align: left;}
+
+.img-fluid{width:100%;height: auto;}
+
+h1{font-size:35px;font-family: serif;margin-left: 15px;}
+
+h2{font-size:25px;font-family: serif;margin-left: 15px;padding: 20px;}
+
+p{
+    font-size:20px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;margin-left: 25px;
+}
+
+
+footer{background-color: blue;}
+
+*{padding: 0;margin: 0;}
+
+/* VISTA DESKTOP */
+
+    /* INDEX */
+@media (min-width:1024px){
+
+.imgInicio img{
+        height: 450px;
+        width: 400px;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 120px;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+    /* PRODUCTOS */
+
+
+    /* SERVICIOS */
+
+    .parrafoServicios{text-align: center;}
+
+    .imgServicios img{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 200px;
+        width: 240px;
+        border-radius: 20px;        
+        margin-left: 300px;
+    }
+
+
+    /* NOSOTROS */
+
+    .imgNosotros img {
+        height: 550px;
+        width: 400px;
+        border-radius: 20px;
+        margin-left: 120px;
+        }
+    
+
+
+
+    /* CONTACTO */
+
+
+    .pContacto{text-align: center;}
+
+    .formulario form{
+        display:flex;
+        flex-direction: column; 
+        row-gap: 30px;
+    }
+
+    .logoFoo img{
+        height: 200px;
+        width: 200px;
+    }
+
+    footer .logoFoo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .jCSpaceBetween{justify-content: space-between;}
+
+    .iconosFoo img{
+        height: 80px;
+        width: 80px;
+        padding: 20px;
+    }
+
+    footer .iconosFoo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+/* VISTA MOBILE */
+
+@media (max-width:768px){
+    ul{display: flex;flex-direction: row; justify-content: center;padding-left:0;}
+    li{padding:4px;margin:2px;}
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 5px;
+    }
+    main, footer, header{display:flex;flex-direction: column;align-items: center;}
+    .desaparecer{display:none;}
+    .gridProductos{display:flex;flex-direction: column;}
+    .imgInicio {height: 400px;width: 400px; margin-bottom: 20px;}
+    h1{font-size:30px; text-align: center;}
+    h2{font-size:20px; text-align: center;}
+    p{font-size:18px;text-align: center;}
+    .gridContacto, .formulario form, .datosContacto{display:flex;flex-direction:column;}
+    .imgContacto img {height: 300px; width: 300px;}
+    .gridServicios{display:flex;flex-direction: column;}
+    .imgServicios img{margin-left: 55px;}
+    .gridNosotros{display:flex;flex-direction: column;}
+    .imgNosotros img{height: 300px; width: 200px; margin-left: 20px;}
+}
